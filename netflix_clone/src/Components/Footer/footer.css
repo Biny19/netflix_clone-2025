@@ -7,13 +7,20 @@
 .footer-inner-container{
     width: 60%;
 }
-.footer-icons{
+.footer-icons {
     width: 12%;
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     color: #fff;
+    opacity: 0.7;
+   
 }
+.footer-icons:hover {
+    opacity: 1;
+    transform: scale(1.09);
+  }
+  
 .footer-data{
     display: flex;
     justify-content: space-between;
@@ -34,11 +41,12 @@
     justify-content: center;
     align-items: center;
     border: #fff 1px solid;
-    width: 10%;
+    width: 20%;
     margin: 10px 0;
     cursor: pointer;
 }
 .copy-right{
     font-size: 12px;
     margin-bottom: 10px;
+    
 }
